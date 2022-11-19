@@ -1,42 +1,38 @@
-html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body{
-    background-image: url(https://sp.depositphotos.com/stock-photos/tools.html);
-    background-size: cover;
-	background-attachment: fixed;
-    margin: 0;
-    padding: 0;
+      
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     line-height: 1.5;
+    background-image:url(/imagenes/underconstruction.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
      
 }  
-#principal{
-    background: #931621;
-    color:#679436;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-
-
 
 
 footer{
-    background: #679436;
-    color:#931621;
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+    color: #3066BE;
   }
     .contact-list {
     list-style-type: none;
     padding: 0;
     }
-  .contact-list a {
+  .contact-list li{
     padding: 15px;
     display: inline-block;
+  }
+  .contact-list a{
+    color: #F1FFE7;
+    text-decoration: none;
+  }
+  .contact-list a:hover{
+    color:#A9FDAC ;
   }
