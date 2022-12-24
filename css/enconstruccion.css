@@ -36,3 +36,6 @@ footer{
   .contact-list a:hover{
     color:#A9FDAC ;
   }
+  img{
+    width: 126px;
+  }
